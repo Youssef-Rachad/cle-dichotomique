@@ -22,7 +22,6 @@ function display(object){
 }
 function wikiColeo(coleoptere){
     nom.innerText = coleoptere.nom;
-    desc.innerText = coleoptere.desc;
     lien.innerText =`Apprenez davantage sur le coléoptère: ${coleoptere.nom}`;
     lien.href = coleoptere.lien;
     image.src = `./photos/${coleoptere.nom}.jpg`;
